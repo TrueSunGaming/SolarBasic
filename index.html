@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoLang</title>
+    <style>
+        html, body {
+            font-family: monospace;
+            font-size: 20px;
+            padding: 0;
+            margin: 0;
+        }
+
+        div {
+            background-color: #454545;
+            color: lime;
+        }
+
+        #out {
+            height: 200px;
+            overflow: scroll;
+        }
+    </style>
+</head>
+<body>
+    <textarea id="in" cols="50" rows="30"></textarea>
+    <br/>
+    <button id="run">Run</button>
+    <br/>
+    <p id="pointer">Pointer: 0</p>
+    <p id="runtime">Runtime: 0</p>
+    <div>
+        Output:
+        <br/>
+        <p id="out"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
