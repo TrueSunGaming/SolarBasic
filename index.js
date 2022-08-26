@@ -5,7 +5,11 @@ var runtime = 0;
 
 var run;
 
-document.querySelector("#run").addEventListener("mouseup", (e) => {
+document.querySelector("#stop").addEventListener("mouseup", () => {
+    clearInterval(run);
+});
+
+document.querySelector("#run").addEventListener("mouseup", () => {
     clearInterval(run);
     const code = document.querySelector("#in").value;
     const lines = code.split("\n");
