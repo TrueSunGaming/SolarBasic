@@ -7,6 +7,9 @@ var run;
 
 document.querySelector("#stop").addEventListener("mouseup", () => {
     clearInterval(run);
+
+    pointer = 0;
+    runtime = 0;
 });
 
 document.querySelector("#run").addEventListener("mouseup", () => {
