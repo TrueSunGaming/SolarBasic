@@ -62,7 +62,7 @@ document.querySelector("#run").addEventListener("mouseup", (e) => {
             pointer++;
             return;
         }
-    }, 100);
+    }, 50/3);
 });
 
 document.querySelector("#in").addEventListener("input", (e) => {
